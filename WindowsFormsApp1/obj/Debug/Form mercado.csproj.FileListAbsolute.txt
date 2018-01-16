@@ -1,0 +1,36 @@
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form mercado.csprojResolveAssemblyReference.cache
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Alt_Exc.resources
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Cadastrar_Produto.resources
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Caixa.resources
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_principal.resources
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form mercado.csproj.GenerateResource.Cache
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form mercado.csproj.CoreCompileInputs.cache
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\diego.diego-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csprojResolveAssemblyReference.cache
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Alt_Exc.resources
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Cadastrar_Produto.resources
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Caixa.resources
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_principal.resources
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csproj.GenerateResource.Cache
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csproj.CoreCompileInputs.cache
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\diego.diego-PC\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csprojResolveAssemblyReference.cache
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Alt_Exc.resources
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Cadastrar_Produto.resources
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Caixa.resources
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_principal.resources
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csproj.GenerateResource.Cache
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csproj.CoreCompileInputs.cache
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
