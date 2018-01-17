@@ -34,3 +34,16 @@ C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\Form me
 C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csproj.CoreCompileInputs.cache
 C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\DIEGO CRUZ\source\repos\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+G:\Form mercado\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+G:\Form mercado\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+G:\Form mercado\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+G:\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csprojResolveAssemblyReference.cache
+G:\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Alt_Exc.resources
+G:\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Cadastrar_Produto.resources
+G:\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Caixa.resources
+G:\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_principal.resources
+G:\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+G:\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csproj.GenerateResource.Cache
+G:\Form mercado\WindowsFormsApp1\obj\Debug\Form mercado.csproj.CoreCompileInputs.cache
+G:\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+G:\Form mercado\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
