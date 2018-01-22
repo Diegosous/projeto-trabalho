@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
         #region variaveis
 
         public string strcon = @"Data Source=.\sqlexpress;Initial Catalog=trabalho;User ID=diego;Password=diego123; MultipleActiveResultSets=true";
-        public SqlConnection sqlcon;
+        public SqlConnection sqlCon;
         float TotalVenda = 0;
         int i;
         int totalanterior = 1;
@@ -120,11 +120,11 @@ namespace WindowsFormsApp1
             {
                 if (sqlcon.State == ConnectionState.Closed)
                 {
-                    sqlcon.open();
+                    sqlcon.Open();
                 }
                 SqlDataReader drprod = cmdprod.ExecuteReader();
 
-                if (idprod.masRows)
+                if (! drprod.HasRows)
                 {
                     MessageBox.Show("produto não encontrado", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -135,7 +135,17 @@ namespace WindowsFormsApp1
                     byte[] imagem = (byte[])(drprod["fotos"]);
 
 
-                    if
+                    if (imagem ==null)
+                    {
+                        pictureBox1.Image = null;
+                    }
+                    else
+                    {
+                        MemoryStream mstream = new MemoryStream(imagem);
+                        pictureBox1.Image = System.Drawing.Image.FromStream(mstream);
+                    }
+
+                  }
 
 
 
@@ -144,25 +154,88 @@ namespace WindowsFormsApp1
 
 
 
+                
 
 
-
-                }
-
-
-            }
-            
-            
-            
-        }
-
-
-             
-
-        private void Caixa_Load(object sender, EventArgs e)
+            }catch(Exception ex)
             {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlcon.Close();
+            }
+            
+            
+        }
+        private void GravarVenda()
+        {
+            string sqlvenda = "insert into caixa(Idvenda,ValorTotal) values(@idvenda,@valortotal)";
+            SqlConnection conn = new SqlConnection(strCon);
+            SqlCommand cmdvenda = new SqlCommand(sqlvenda, conn);
 
+            cmdvenda.Parameters.AddWithValue("@idvenda", Convert.ToInt32(label2.Text));
+            cmdvenda.Parameters.AddWithValue("@valortotal", float.Parse(label6.Text));
+
+
+            try
+            {
+                conn.Open();
+                cmdvenda.ExecuteNonQuery();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                dataGridView1.Rows.Clear();
+                TotalVenda = 0;
+                conn.Close();
+                textBox1.Focus();
             }
         }
+
+        private void inserir()
+        {
+            string sqlItens = "insert Intermediaria(IdVenda,idprod,qt,ValorT) values(@codvenda,@codprod,@quantidade,@total)";
+            SqlConnection conn = new SqlConnection(strCon);
+
+            try
+            {
+                SqlCommand cmdinserir = new SqlCommand(sqlItens, conn);
+                for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
+                {
+                    cmdinserir.Parameters.Clear();
+                    cmdinserir.Parameters.AddWithValue("@codvenda", label2.Text);
+                    cmdinserir.Parameters.AddWithValue("@codprod", dataGridView1.Rows[i].Cells[0].Value);
+                    cmdinserir.Parameters.AddWithValue("@quantidade", Convert.ToInt32(dataGridView1.Rows[1].Cells[3].Value));
+                    cmdinserir.Parameters.AddWithValue("@total", Convert.ToDecimal(dataGridView1.Rows[i].Cells[4].Value));
+
+                    conn.Open();
+                    cmdinserir.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+               conn.Close();
+            }
+        }
+
+
+
+        #endregion
+        private void Caixa_Load(object sender, EventArgs e)
+        {
+            NomearDataGrid();
+            GerarCodigo();
+
+        }
+        
+
     }
 }
